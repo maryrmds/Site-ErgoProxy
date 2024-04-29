@@ -9,10 +9,13 @@ export default {
       extend: {},
   
       colors: {
+      
         slate: colors.slate,
-        zinc: colors.zinc,
-        blue: colors.blue
   
+      },
+
+      fontFaily: {
+        'jacquard': '"Jacquard 12 Charted"',
       }
   
     },

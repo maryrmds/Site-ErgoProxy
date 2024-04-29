@@ -1,6 +1,7 @@
-import ReL from "/public/ReL.jiff"
-import Vicent from "/public/ReL.jiff"
-import Pino from "/public/pino.jiff"
+import ReL from "/public/ReL.jpeg"
+import Vicent from "/public/ReL.jpeg"
+import Pino from "/public/pino.jpeg"
+import Header from "../components/Header"
 
 export default function Principais() {
     return (

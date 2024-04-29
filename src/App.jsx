@@ -1,23 +1,15 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Historia from "./pages/Historia"
-import Sinopse from "./pages/Sinopse"
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Historia from "./assets/pages/Historia";
+import Sinopse from "./assets/pages/Sinopse";
+
 
 const router = createBrowserRouter ([
   {
-    path: "/",
-    element: <Header />
-
-  },
-  {
-    path: "/",
+    path: "/historia",
     element: <Historia />
 
   },
-  {
-    path: "/",
-    element: <Principais />
 
-  },
   {
     path: "/",
     element: <Sinopse />
@@ -30,3 +22,5 @@ function App() {
     <RouterProvider router={router} />
   )
 }
+
+export default App

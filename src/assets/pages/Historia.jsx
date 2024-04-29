@@ -1,4 +1,5 @@
-import ErgoProxyCapa from "/public/ErgoProxyCapa.jiff"
+import ErgoProxyCapa from "/public/ErgoProxyCapa.jpeg"
+import Header from "../components/Header"
 
 export default function Historia() {
     return (
@@ -6,7 +7,7 @@ export default function Historia() {
             <Header />
             <section>
                 <h2 className="">História</h2>
-                <p className="">A história começa numa cidade futurista chamada Romdo, construída para a proteção dos cidadãos após o apocalipse ambiental global. Nesta distopia, humanos e AutoReivs (andróides) coexistem pacificamente num ambiente de total controle. Os Autoreivs são separados em 'de companhia' ou 'Entourage' dependendo do seu papel.</p>
+                <p className="">A história começa numa cidade futurista chamada Romdo, construída para a proteção dos cidadãos após o apocalipse ambiental global. Nesta distopia, humanos e AutoReivs andróides coexistem pacificamente num ambiente de total controle. Os Autoreivs são separados em 'de companhia' ou 'Entourage' dependendo do seu papel.</p>
                 <img src={ErgoProxyCapa} alt="Capa do anime ErgoProxy."/>
             </section>
         </div>
